@@ -1,0 +1,25 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  background-color: #efefef;
+}
+
+#app {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer {
+  font-size: 2em;
+  text-align: center;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 #333;
+  background-color: #fff;
+}
