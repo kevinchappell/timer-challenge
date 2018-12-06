@@ -7,13 +7,8 @@ const DEFAULT_OPTIONS = () => ({
 })
 
 /*
-  # Objective
   Fill in the class properties to complete the API
-  The Timer should:
-    - pause/resume
-    - reset
 */
-
 class Timer {
   constructor(userOptions) {
     const { onUpdate, onComplete, ...options } = Object.assign({}, DEFAULT_OPTIONS(), userOptions)
