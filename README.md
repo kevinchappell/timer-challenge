@@ -18,6 +18,7 @@ Add toggle functionality to the click event handler for the start/pause button i
   * [ ] Timer should continue counting from paused time when resumed.
 * [ ] be able to reset
   * [ ] when reset, the timer returns to it's initial start time.
+
   
 ## Getting Started
 
@@ -34,8 +35,7 @@ npm install
 npm start
 ```
 
-This should clone the repo, install its dependencies and start the development server. From there you can edit the files in `src/` until the objectives are completed.
-
+This should clone the repo, install its dependencies and start the development server. From there you can edit the files in `src/` until the objectives are completed. The challenge should not take more than an hour.
 
 ## Bonus
 Describe testing strategy for the Timer class.
